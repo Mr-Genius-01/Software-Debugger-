@@ -1,0 +1,301 @@
+:root{
+    --primary-color: #1857a4;
+    --secondary-color: #000000;
+    --whiite-color: #fff;
+    --gray-color: #5f6063;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*ul and li and anchor style. me i'm said don't be comp*/
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* is just a button */
+.bi-bug-fill{
+    color: var(--whiite-color);
+    padding-left: 1rem;
+}
+
+
+.nav-menu{
+    width: 100%;
+    height: 15vh;
+    background-position: center;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*transform: skewY(-3deg);*/
+}
+.nav-menu h1{
+    padding-left: 50px;
+    color: var(--whiite-color);
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+.nav-items{
+    padding: 1rem;
+}
+.nav-links{
+    text-decoration: none;
+    color: var(--whiite-color);
+    padding: .2rem .5rem;
+    border: none;
+    transition: .5s ease-in;
+}
+.nav-links:hover{
+    border-bottom: 1px solid var(--whiite-color);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1857a4;
+    margin-bottom: 1rem;
+    padding-bottom: 6rem;
+    align-items: center;
+}
+.main-ol{
+    margin: 2rem 2rem;
+}
+.main-ol h1{
+    color: var(--whiite-color);
+    margin: 1rem 3rem;
+}
+.main-ol .lead{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    padding-left: 50px;
+    color: var(--whiite-color);
+}
+.cls-btn{
+    margin: 1rem 3.9rem;
+}
+.main-ii{
+    margin: 2rem;
+}
+.main-ii img{
+    width: 10rem;
+    background-color: var(--whiite-color);
+    border-radius: 11rem;
+    object-fit: cover;
+}
+
+/* Dropdown */
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+nav ul {
+	float: left;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #222; 
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background: linear-gradient(to left,  #1250a1,#2f5896,#328bbe);
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;  
+}
+nav ul li:hover ul{ 
+	display: block;
+	  
+}
+nav ul li ul {
+	width: 100px;
+	border-radius: 0px 0px 4px 4px; 
+}
+nav ul li ul a{
+	padding: 8px 14px;
+    color: var(--whiite-color);
+    transition: all .25s ease-in;
+}
+nav ul li ul a:hover{
+	background-color: rgb(0, 0, 0, 0.27);
+    color: var(--whiite-color);
+}
+
+/*main-flex-box*/
+.main-flex-box{
+    margin: 0rem 2rem 2rem;
+    background-color: var(--primary-color);
+}
+.include-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-out{
+    margin: 1rem 2rem;
+    align-items: center;
+    color: var(--whiite-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.another{
+    margin-left: 1.5rem;
+}
+.another h3{
+    margin: 1rem 1rem 1rem;
+}
+.all-in{
+    margin: 2rem 3rem;
+    background-color: var(--whiite-color);
+    padding: 2rem 3rem;
+    padding-bottom: 3rem;
+}
+.all-in h1{
+    font-size: 1.5rem;
+    color: var(--gray-color);
+    text-align: center;
+}
+form{
+    justify-self: center;
+}
+.form-control{
+    padding: 15px;
+}
+.form-control input{
+    border: none;
+    border-bottom: 1px solid var(--gray-color);
+    width: 20em;
+    outline: none;
+}
+
+/*para & ppara*/
+.para{
+    color: var(--gray-color);
+    padding: 2rem;
+    margin: 2rem;
+}
+.ppara{
+    padding: .5rem;
+}
+.ppara h1{
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+/*main one last style*/
+.main_one_last{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 2rem 2rem;
+    align-items: center;
+    padding: 3rem 3rem 3rem;
+}
+.main_one_last h3{
+    background-color: var(--primary-color);
+    color: var(--whiite-color);
+    padding: 1rem;
+}
+.main_one_last ul{
+    padding: 1rem;
+}
+.main_one_last li{
+    padding: .5rem;
+}
+.main_one_last a{
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+/*New contents*/
+.main-today-new{
+    margin: 2;
+    padding: 2rem;
+}
+.news-contents{
+    padding: 1rem;
+}
+.first h3{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--whiite-color);
+}
+.first p{
+    margin: 1rem;
+}
+.ibtn{
+    margin: 1rem;
+}
+.second{
+    margin: 1rem;
+    padding: 1rem;
+}
+/*main divider*/
+.main-devider{
+    margin: 2rem 2rem 2rem;
+}
+/* Utilities items*/
+.btn{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.7rem;
+    background-color: #1b1615;
+    color: var(--whiite-color);
+    transition: .5s ease-in;
+    border: none;
+    cursor: pointer;
+} 
+.btn:hover{
+    background-color: var(--gray-color);
+    color: var(--whiite-color);
+}
+
+.Mera{
+    background-color: var(--primary-color);
+    color: var(--whiite-color);
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+.nav-list-down{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2rem;
+    
+}
+/*Footer*/
+.footer-end{
+    text-align: center;
+    background: linear-gradient(to top, #072246,#0f408a,#158f8f);
+    color: var(--whiite-color);
+    padding: 1rem 1rem;
+    margin: 0 2rem;
+}

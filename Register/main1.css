@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #1857a4;
+    --secondary-color: #000000;
+    --whiite-color: #fff;
+    --gray-color: #5f6063;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-first{
+    position: absolute;
+    left: 30%;
+}
+input{
+    padding: 1rem 4rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+}

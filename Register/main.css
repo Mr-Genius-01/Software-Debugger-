@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #1857a4;
+    --secondary-color: #000000;
+    --whiite-color: #fff;
+    --gray-color: #5f6063;
+
+}
+
+.all-in{
+    padding: 4rem 25rem;
+    padding-bottom: 3rem;
+}
+.all-in h1{
+    font-size: 1.5rem;
+    color: var(--gray-color);
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin-left: 5rem;
+    background-color: var(--whiite-color);
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
+.form-control{
+    padding: 1rem;
+}
+.form-control input{
+    padding: 16px 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+/* Utilities items*/
+.btn{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.7rem;
+    background-color: #1b1615;
+    color: var(--whiite-color);
+    transition: .5s ease-in;
+    border: none;
+    cursor: pointer;
+} 
+.btn:hover{
+    background-color: var(--gray-color);
+    color: var(--whiite-color);
+}
